@@ -1,0 +1,6 @@
+CREATE TABLE pledges(
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+amount FLOAT(100,2),
+user_id INT,
+project_id INT
+)
